@@ -5,7 +5,7 @@
   "homepage": "https://dnstld.github.io/gitfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && mv out _static",
+    "build": "next build && next export",
     "start": "next start",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
